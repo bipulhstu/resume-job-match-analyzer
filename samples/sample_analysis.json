@@ -1,0 +1,98 @@
+{
+  "candidate_name": "Rahim Ahmed",
+  "target_role": "Backend Engineer (Python) — CloudCart Technologies",
+  "overall_match_score": 62,
+  "ats_score": 58,
+  "verdict": "Moderate match",
+  "executive_summary": "Rahim is a Python backend developer with about 2.5 years of Django and Flask experience, including directly relevant e-commerce API work. His core stack (Python, Django, PostgreSQL, REST, JWT) lines up with the role's foundation. However, the resume shows no evidence of Docker, AWS, Redis, Celery/Kafka or CI/CD, which are listed as hard requirements, and he is slightly under the 3-year experience bar. Bullets describe duties rather than impact, which weakens both ATS ranking and recruiter interest. With targeted upskilling and a rewrite that quantifies results, he could become a strong candidate.",
+  "category_scores": [
+    {"category": "Skills", "score": 55, "comment": "Strong Python/Django/PostgreSQL base, but Docker, AWS, Redis, Celery and CI/CD are all missing."},
+    {"category": "Experience", "score": 65, "comment": "2.5 years versus 3+ required; e-commerce backend work is highly relevant."},
+    {"category": "Education", "score": 85, "comment": "CSE degree satisfies the implied requirement; certification is entry-level."},
+    {"category": "Keywords", "score": 50, "comment": "About half of the job's key terms appear; infrastructure terms are absent."},
+    {"category": "ATS Formatting", "score": 75, "comment": "Clean single-column layout and standard headings; dates and titles parse well."}
+  ],
+  "matched_skills": ["Python", "Django", "PostgreSQL", "REST APIs", "JWT authentication", "Unit testing", "Code reviews / mentoring", "Git", "Linux", "E-commerce domain"],
+  "missing_skills": [
+    {"skill": "Docker", "importance": "critical", "how_to_address": "Containerise the Expense Tracker API with a Dockerfile and docker-compose (app + Postgres + Redis) and mention it in the project bullet."},
+    {"skill": "AWS", "importance": "critical", "how_to_address": "Deploy the containerised project to AWS (ECS or EC2 + RDS) on the free tier; consider the AWS Cloud Practitioner certificate."},
+    {"skill": "Redis caching", "importance": "important", "how_to_address": "Add Redis caching to a slow endpoint in a project and report the latency improvement."},
+    {"skill": "Celery / Kafka (async processing)", "importance": "important", "how_to_address": "Add a Celery worker for background jobs such as email receipts; if you used any queue at BrightSoft, say so explicitly."},
+    {"skill": "CI/CD (GitHub Actions)", "importance": "important", "how_to_address": "Add a GitHub Actions workflow that runs pytest and builds the Docker image on every push."},
+    {"skill": "FastAPI", "importance": "nice-to-have", "how_to_address": "Rebuild one small service in FastAPI to show you can pick it up quickly."},
+    {"skill": "GraphQL", "importance": "nice-to-have", "how_to_address": "Try Strawberry or Graphene with Django in a side project."},
+    {"skill": "Kubernetes / Terraform", "importance": "nice-to-have", "how_to_address": "Lower priority; a minikube deployment of one project is enough to discuss in interviews."}
+  ],
+  "keywords": [
+    {"keyword": "Python", "found": true},
+    {"keyword": "Django", "found": true},
+    {"keyword": "FastAPI", "found": false},
+    {"keyword": "REST APIs", "found": true},
+    {"keyword": "GraphQL", "found": false},
+    {"keyword": "PostgreSQL", "found": true},
+    {"keyword": "Redis", "found": false},
+    {"keyword": "Celery", "found": false},
+    {"keyword": "Kafka", "found": false},
+    {"keyword": "Docker", "found": false},
+    {"keyword": "Kubernetes", "found": false},
+    {"keyword": "AWS", "found": false},
+    {"keyword": "pytest", "found": false},
+    {"keyword": "CI/CD", "found": false},
+    {"keyword": "GitHub Actions", "found": false},
+    {"keyword": "JWT / OAuth2", "found": true},
+    {"keyword": "system design", "found": false},
+    {"keyword": "performance tuning", "found": true},
+    {"keyword": "code reviews", "found": true},
+    {"keyword": "mentoring", "found": true},
+    {"keyword": "e-commerce", "found": true}
+  ],
+  "strengths": [
+    "Directly relevant e-commerce backend experience with Django.",
+    "Built and deployed an authenticated REST API end to end (Expense Tracker).",
+    "Has already done query performance work and code reviews — both named in the job.",
+    "Solid CS fundamentals with a good CGPA."
+  ],
+  "weaknesses": [
+    "No containerisation, cloud, caching or queueing experience shown.",
+    "Bullets describe responsibilities instead of measurable results.",
+    "Summary is generic and does not name the target role or key strengths.",
+    "Slightly below the 3-year experience requirement."
+  ],
+  "section_feedback": [
+    {"section": "Summary", "score": 45, "feedback": "Generic and not tailored; 'passionate about clean code' adds little.", "suggestions": ["Name the role: 'Python Backend Engineer with 2.5 years building Django APIs for e-commerce'.", "Add one proof point with a number.", "Mention the stack the job cares about."]},
+    {"section": "Skills", "score": 60, "feedback": "Lists the right core languages but mixes in front-end items and omits tooling.", "suggestions": ["Group into Languages / Frameworks / Databases / DevOps.", "Move HTML/CSS to the end or remove them.", "Add tools you genuinely know, e.g. pytest, Docker once learned."]},
+    {"section": "Experience", "score": 55, "feedback": "Relevant roles, but every bullet starts with a weak verb ('Worked on', 'Responsible for') and has no metrics.", "suggestions": ["Start each bullet with a strong verb (Designed, Optimised, Shipped).", "Add scale: requests/day, users, latency, % improvement.", "Mention testing and deployment practices you followed."]},
+    {"section": "Projects", "score": 70, "feedback": "Good choice of projects; the Expense Tracker shows end-to-end ownership.", "suggestions": ["Add Docker + GitHub Actions to the Expense Tracker and say so.", "Link each project's GitHub repo."]},
+    {"section": "Education", "score": 85, "feedback": "Clear and complete.", "suggestions": ["Optionally add relevant coursework such as Distributed Systems or Databases."]}
+  ],
+  "bullet_rewrites": [
+    {"original": "Worked on the backend of an e-commerce platform using Django.", "improved": "Developed Django REST services for an e-commerce platform handling [X] orders/day, covering catalog, cart and checkout flows.", "reason": "Strong verb, scope and domain keywords recruiters search for."},
+    {"original": "Responsible for writing APIs for the mobile app team.", "improved": "Designed and shipped [N] versioned REST endpoints consumed by the iOS/Android apps, with JWT auth and OpenAPI documentation.", "reason": "Shows ownership and adds API-security keywords from the job."},
+    {"original": "Fixed bugs and improved performance of some slow database queries.", "improved": "Cut p95 latency of key PostgreSQL queries by [X%] through indexing and query refactoring, reducing checkout timeouts.", "reason": "Quantifies impact and matches 'performance tuning' and 'PostgreSQL'."},
+    {"original": "Helped junior developers with code reviews.", "improved": "Mentored 2 junior developers through weekly code reviews, improving test coverage and adherence to team standards.", "reason": "Maps directly to the job's mentoring responsibility."},
+    {"original": "Wrote unit tests for existing modules.", "improved": "Raised unit-test coverage of legacy Flask modules from [X%] to [Y%] using pytest, catching regressions before release.", "reason": "Adds 'pytest' keyword and a measurable outcome."}
+  ],
+  "ats_issues": [
+    "Key infrastructure keywords (Docker, AWS, Redis, CI/CD) are missing entirely.",
+    "Use the exact phrase 'REST API' and 'PostgreSQL' consistently; avoid only abbreviations.",
+    "Date ranges use en dashes; most ATS handle this, but '01/2024 - Present' is the safest format.",
+    "Add the target job title near the top so ATS role matching picks it up."
+  ],
+  "interview_questions": [
+    "How would you design a cache layer for a product catalog serving 2M users per month?",
+    "Walk me through how you diagnosed and fixed a slow PostgreSQL query.",
+    "How would you move a long-running task (e.g. invoice generation) out of the request cycle?",
+    "Explain how JWT authentication works and how you'd handle token revocation.",
+    "How would you containerise and deploy a Django app to AWS?",
+    "Describe a code review where you disagreed with a teammate and how you resolved it.",
+    "How do you design APIs that stay backwards-compatible for mobile clients?"
+  ],
+  "action_plan": [
+    "This week: rewrite Summary and Experience bullets using the suggestions above, filling in real numbers.",
+    "Week 1-2: Dockerise the Expense Tracker API and add a GitHub Actions pipeline running pytest.",
+    "Week 2-3: Add Redis caching and a Celery background task to the same project; document results in the README.",
+    "Week 3-4: Deploy the project to AWS and add it to the resume with the live link.",
+    "Regroup the Skills section and add the newly learned tools only once you can discuss them confidently.",
+    "Prepare answers for the interview questions above, especially caching and async processing."
+  ]
+}

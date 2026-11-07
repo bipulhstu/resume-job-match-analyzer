@@ -1,0 +1,30 @@
+RAHIM AHMED
+Dhaka, Bangladesh | rahim.ahmed@example.com | github.com/rahim-dev | linkedin.com/in/rahim-ahmed
+
+SUMMARY
+Backend developer with 2.5 years of experience building REST APIs in Python. Passionate about clean code and learning new technologies.
+
+SKILLS
+Python, Django, Flask, MySQL, PostgreSQL, Git, Linux, HTML, CSS, JavaScript, REST APIs, Postman
+
+EXPERIENCE
+Software Engineer, BrightSoft Ltd. — Dhaka (Jan 2024 – Present)
+- Worked on the backend of an e-commerce platform using Django.
+- Responsible for writing APIs for the mobile app team.
+- Fixed bugs and improved performance of some slow database queries.
+- Helped junior developers with code reviews.
+
+Junior Developer, CodeNest Solutions — Dhaka (Jun 2023 – Dec 2023)
+- Built internal admin dashboards with Flask and MySQL.
+- Wrote unit tests for existing modules.
+- Participated in daily stand-ups and sprint planning.
+
+PROJECTS
+Expense Tracker API — Flask REST API with JWT auth and PostgreSQL; deployed on a VPS with Nginx.
+Movie Recommender — Collaborative filtering prototype in Python using pandas and scikit-learn.
+
+EDUCATION
+B.Sc. in Computer Science and Engineering — Hajee Mohammad Danesh Science and Technology University (2023), CGPA 3.45/4.00
+
+CERTIFICATIONS
+Python for Everybody — Coursera (2022)

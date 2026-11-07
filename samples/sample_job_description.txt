@@ -1,0 +1,27 @@
+Backend Engineer (Python) — CloudCart Technologies
+
+About the role
+We are looking for a Backend Engineer to design and scale the services behind our multi-tenant SaaS commerce platform, serving 2M+ monthly users.
+
+Responsibilities
+- Design, build and maintain high-throughput REST and GraphQL APIs in Python (Django / FastAPI).
+- Own services end to end: design, testing, deployment, monitoring and on-call.
+- Optimise PostgreSQL schemas and queries; use Redis for caching and queues.
+- Build event-driven workflows with Celery or Kafka.
+- Containerise services with Docker and deploy to Kubernetes on AWS.
+- Write automated tests (pytest) and maintain CI/CD pipelines (GitHub Actions).
+- Mentor junior engineers and take part in code and design reviews.
+
+Requirements
+- 3+ years of professional backend development experience with Python.
+- Strong experience with Django or FastAPI and PostgreSQL.
+- Hands-on experience with Docker and at least one cloud provider (AWS preferred).
+- Experience with caching (Redis) and asynchronous task processing (Celery, RabbitMQ or Kafka).
+- Solid understanding of system design, API security (OAuth2/JWT) and performance tuning.
+- Experience with automated testing and CI/CD.
+
+Nice to have
+- Kubernetes, Terraform
+- GraphQL
+- Observability tools (Prometheus, Grafana, Sentry)
+- Experience in e-commerce or payments
